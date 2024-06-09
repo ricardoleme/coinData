@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Top 10 coins list with Market Data by CoinGecko",
   "main": "index.js",
+  "engines": {
+    "node": "17.x",
+    "npm": "8.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js" 
