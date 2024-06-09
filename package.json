@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Top 10 coins list with Market Data by CoinGecko",
   "main": "index.js",
+  "type": "module",
   "engines": {
     "node": "17.x",
     "npm": "8.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js" 
+    "start": "node index.js"
   },
   "keywords": [
     "coin",
@@ -19,6 +20,7 @@
   "author": "Ricardo Leme",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.19.2",
     "node-fetch": "^2.7.0"
   }
 }
